@@ -1,1 +1,1 @@
-# training
+# Git training repository
