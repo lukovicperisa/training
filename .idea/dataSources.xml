@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="config" uuid="e8de62f0-e9f9-4f73-94aa-5a2d4b9b2498">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost/ptb2bla?useConfigs=maxPerformance&amp;characterEncoding=utf8&amp;autoReconnect=true</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="platform" uuid="b26039de-c27d-49d0-8b09-ce64dafbdf95">
+      <driver-ref>hsqldb.remote</driver-ref>
+      <jdbc-driver>org.hsqldb.jdbcDriver</jdbc-driver>
+      <jdbc-url>jdbc:hsqldb:file:$PROJECT_DIR$/data/hsqldb/mydb;shutdown=true;hsqldb.tx=MVCC</jdbc-url>
+    </data-source>
+  </component>
+</project>

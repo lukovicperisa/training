@@ -1,0 +1,2388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AntConfiguration">
+    <buildFile url="file://$PROJECT_DIR$/bin/platform/build.xml">
+      <additionalClassPath>
+        <entry path="file://$APPLICATION_PLUGINS_DIR$/Hybris-Integration-Pro/lib/rt-ant.jar" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/catalog/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/comments/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/commons/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/core/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/deliveryzone/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/europe1/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/hac/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/impex/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/maintenanceweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/mediaweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/oauth2/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/paymentstandard/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/platformservices/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/processing/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/scripting/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/testweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/validation/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/workflow/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/resources/ant/lib" />
+      </additionalClassPath>
+      <antReference name="Apache Ant version 1.10.5" />
+      <maximumHeapSize value="512" />
+      <maximumStackSize value="128" />
+      <properties>
+        <property name="PLATFORM_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform" />
+        <property name="ANT_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform\apache-ant" />
+        <property name="ANT_OPTS" value="-Xmx512 -Dfile.encoding=UTF-8" />
+      </properties>
+      <executeOn event="compositeTask" target="[clean,all]" presentableName="[clean,all]" />
+      <executeOn event="compositeTask" target="[clean,customize,all,initialize]" presentableName="[clean,customize,all,initialize]" />
+      <executeOn event="compositeTask" target="[clean,customize,all,production]" presentableName="[clean,customize,all,production]" />
+    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/bin/custom/foundation/boschfoundationapicommons/build.xml">
+      <additionalClassPath>
+        <entry path="file://$APPLICATION_PLUGINS_DIR$/Hybris-Integration-Pro/lib/rt-ant.jar" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/catalog/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/comments/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/commons/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/core/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/deliveryzone/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/europe1/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/hac/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/impex/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/maintenanceweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/mediaweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/oauth2/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/paymentstandard/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/platformservices/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/processing/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/scripting/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/testweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/validation/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/workflow/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/resources/ant/lib" />
+      </additionalClassPath>
+      <antReference name="Apache Ant version 1.10.5" />
+      <maximumHeapSize value="512" />
+      <maximumStackSize value="128" />
+      <properties>
+        <property name="PLATFORM_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform" />
+        <property name="ANT_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform\apache-ant" />
+        <property name="ANT_OPTS" value="-Xmx512 -Dfile.encoding=UTF-8" />
+      </properties>
+    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/bin/custom/foundation/boschfoundationarchunittest/build.xml">
+      <additionalClassPath>
+        <entry path="file://$APPLICATION_PLUGINS_DIR$/Hybris-Integration-Pro/lib/rt-ant.jar" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/catalog/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/comments/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/commons/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/core/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/deliveryzone/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/europe1/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/hac/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/impex/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/maintenanceweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/mediaweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/oauth2/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/paymentstandard/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/platformservices/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/processing/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/scripting/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/testweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/validation/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/workflow/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/resources/ant/lib" />
+      </additionalClassPath>
+      <antReference name="Apache Ant version 1.10.5" />
+      <maximumHeapSize value="512" />
+      <maximumStackSize value="128" />
+      <properties>
+        <property name="PLATFORM_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform" />
+        <property name="ANT_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform\apache-ant" />
+        <property name="ANT_OPTS" value="-Xmx512 -Dfile.encoding=UTF-8" />
+      </properties>
+    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/bin/custom/foundation/boschfoundationautoimporter/build.xml">
+      <additionalClassPath>
+        <entry path="file://$APPLICATION_PLUGINS_DIR$/Hybris-Integration-Pro/lib/rt-ant.jar" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/catalog/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/comments/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/commons/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/core/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/deliveryzone/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/europe1/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/hac/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/impex/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/maintenanceweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/mediaweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/oauth2/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/paymentstandard/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/platformservices/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/processing/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/scripting/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/testweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/validation/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/workflow/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/resources/ant/lib" />
+      </additionalClassPath>
+      <antReference name="Apache Ant version 1.10.5" />
+      <maximumHeapSize value="512" />
+      <maximumStackSize value="128" />
+      <properties>
+        <property name="PLATFORM_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform" />
+        <property name="ANT_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform\apache-ant" />
+        <property name="ANT_OPTS" value="-Xmx512 -Dfile.encoding=UTF-8" />
+      </properties>
+    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/bin/custom/foundation/boschfoundationautoimporterbackoffice/build.xml">
+      <additionalClassPath>
+        <entry path="file://$APPLICATION_PLUGINS_DIR$/Hybris-Integration-Pro/lib/rt-ant.jar" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/catalog/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/comments/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/commons/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/core/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/deliveryzone/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/europe1/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/hac/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/impex/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/maintenanceweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/mediaweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/oauth2/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/paymentstandard/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/platformservices/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/processing/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/scripting/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/testweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/validation/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/workflow/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/resources/ant/lib" />
+      </additionalClassPath>
+      <antReference name="Apache Ant version 1.10.5" />
+      <maximumHeapSize value="512" />
+      <maximumStackSize value="128" />
+      <properties>
+        <property name="PLATFORM_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform" />
+        <property name="ANT_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform\apache-ant" />
+        <property name="ANT_OPTS" value="-Xmx512 -Dfile.encoding=UTF-8" />
+      </properties>
+    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/bin/custom/foundation/boschfoundationb2bcustomerbackoffice/build.xml">
+      <additionalClassPath>
+        <entry path="file://$APPLICATION_PLUGINS_DIR$/Hybris-Integration-Pro/lib/rt-ant.jar" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/catalog/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/comments/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/commons/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/core/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/deliveryzone/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/europe1/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/hac/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/impex/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/maintenanceweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/mediaweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/oauth2/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/paymentstandard/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/platformservices/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/processing/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/scripting/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/testweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/validation/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/workflow/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/resources/ant/lib" />
+      </additionalClassPath>
+      <antReference name="Apache Ant version 1.10.5" />
+      <maximumHeapSize value="512" />
+      <maximumStackSize value="128" />
+      <properties>
+        <property name="PLATFORM_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform" />
+        <property name="ANT_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform\apache-ant" />
+        <property name="ANT_OPTS" value="-Xmx512 -Dfile.encoding=UTF-8" />
+      </properties>
+    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/bin/custom/foundation/boschfoundationb2bcustomerfacade/build.xml">
+      <additionalClassPath>
+        <entry path="file://$APPLICATION_PLUGINS_DIR$/Hybris-Integration-Pro/lib/rt-ant.jar" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/catalog/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/comments/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/commons/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/core/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/deliveryzone/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/europe1/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/hac/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/impex/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/maintenanceweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/mediaweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/oauth2/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/paymentstandard/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/platformservices/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/processing/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/scripting/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/testweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/validation/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/workflow/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/resources/ant/lib" />
+      </additionalClassPath>
+      <antReference name="Apache Ant version 1.10.5" />
+      <maximumHeapSize value="512" />
+      <maximumStackSize value="128" />
+      <properties>
+        <property name="PLATFORM_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform" />
+        <property name="ANT_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform\apache-ant" />
+        <property name="ANT_OPTS" value="-Xmx512 -Dfile.encoding=UTF-8" />
+      </properties>
+    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/bin/custom/foundation/boschfoundationbackoffice/build.xml">
+      <additionalClassPath>
+        <entry path="file://$APPLICATION_PLUGINS_DIR$/Hybris-Integration-Pro/lib/rt-ant.jar" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/catalog/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/comments/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/commons/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/core/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/deliveryzone/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/europe1/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/hac/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/impex/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/maintenanceweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/mediaweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/oauth2/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/paymentstandard/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/platformservices/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/processing/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/scripting/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/testweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/validation/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/workflow/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/resources/ant/lib" />
+      </additionalClassPath>
+      <antReference name="Apache Ant version 1.10.5" />
+      <maximumHeapSize value="512" />
+      <maximumStackSize value="128" />
+      <properties>
+        <property name="PLATFORM_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform" />
+        <property name="ANT_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform\apache-ant" />
+        <property name="ANT_OPTS" value="-Xmx512 -Dfile.encoding=UTF-8" />
+      </properties>
+    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/bin/custom/foundation/boschfoundationcartaddon/build.xml">
+      <additionalClassPath>
+        <entry path="file://$APPLICATION_PLUGINS_DIR$/Hybris-Integration-Pro/lib/rt-ant.jar" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/catalog/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/comments/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/commons/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/core/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/deliveryzone/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/europe1/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/hac/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/impex/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/maintenanceweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/mediaweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/oauth2/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/paymentstandard/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/platformservices/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/processing/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/scripting/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/testweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/validation/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/workflow/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/resources/ant/lib" />
+      </additionalClassPath>
+      <antReference name="Apache Ant version 1.10.5" />
+      <maximumHeapSize value="512" />
+      <maximumStackSize value="128" />
+      <properties>
+        <property name="PLATFORM_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform" />
+        <property name="ANT_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform\apache-ant" />
+        <property name="ANT_OPTS" value="-Xmx512 -Dfile.encoding=UTF-8" />
+      </properties>
+    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/bin/custom/foundation/boschfoundationcartapi/build.xml">
+      <additionalClassPath>
+        <entry path="file://$APPLICATION_PLUGINS_DIR$/Hybris-Integration-Pro/lib/rt-ant.jar" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/catalog/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/comments/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/commons/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/core/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/deliveryzone/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/europe1/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/hac/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/impex/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/maintenanceweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/mediaweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/oauth2/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/paymentstandard/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/platformservices/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/processing/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/scripting/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/testweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/validation/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/workflow/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/resources/ant/lib" />
+      </additionalClassPath>
+      <antReference name="Apache Ant version 1.10.5" />
+      <maximumHeapSize value="512" />
+      <maximumStackSize value="128" />
+      <properties>
+        <property name="PLATFORM_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform" />
+        <property name="ANT_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform\apache-ant" />
+        <property name="ANT_OPTS" value="-Xmx512 -Dfile.encoding=UTF-8" />
+      </properties>
+    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/bin/custom/foundation/boschfoundationcartbackoffice/build.xml">
+      <additionalClassPath>
+        <entry path="file://$APPLICATION_PLUGINS_DIR$/Hybris-Integration-Pro/lib/rt-ant.jar" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/catalog/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/comments/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/commons/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/core/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/deliveryzone/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/europe1/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/hac/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/impex/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/maintenanceweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/mediaweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/oauth2/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/paymentstandard/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/platformservices/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/processing/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/scripting/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/testweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/validation/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/workflow/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/resources/ant/lib" />
+      </additionalClassPath>
+      <antReference name="Apache Ant version 1.10.5" />
+      <maximumHeapSize value="512" />
+      <maximumStackSize value="128" />
+      <properties>
+        <property name="PLATFORM_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform" />
+        <property name="ANT_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform\apache-ant" />
+        <property name="ANT_OPTS" value="-Xmx512 -Dfile.encoding=UTF-8" />
+      </properties>
+    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/bin/custom/foundation/boschfoundationciamssoaddon/build.xml">
+      <additionalClassPath>
+        <entry path="file://$APPLICATION_PLUGINS_DIR$/Hybris-Integration-Pro/lib/rt-ant.jar" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/catalog/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/comments/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/commons/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/core/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/deliveryzone/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/europe1/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/hac/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/impex/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/maintenanceweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/mediaweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/oauth2/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/paymentstandard/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/platformservices/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/processing/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/scripting/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/testweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/validation/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/workflow/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/resources/ant/lib" />
+      </additionalClassPath>
+      <antReference name="Apache Ant version 1.10.5" />
+      <maximumHeapSize value="512" />
+      <maximumStackSize value="128" />
+      <properties>
+        <property name="PLATFORM_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform" />
+        <property name="ANT_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform\apache-ant" />
+        <property name="ANT_OPTS" value="-Xmx512 -Dfile.encoding=UTF-8" />
+      </properties>
+    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/bin/custom/foundation/boschfoundationciamssobackoffice/build.xml">
+      <additionalClassPath>
+        <entry path="file://$APPLICATION_PLUGINS_DIR$/Hybris-Integration-Pro/lib/rt-ant.jar" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/catalog/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/comments/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/commons/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/core/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/deliveryzone/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/europe1/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/hac/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/impex/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/maintenanceweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/mediaweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/oauth2/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/paymentstandard/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/platformservices/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/processing/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/scripting/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/testweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/validation/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/workflow/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/resources/ant/lib" />
+      </additionalClassPath>
+      <antReference name="Apache Ant version 1.10.5" />
+      <maximumHeapSize value="512" />
+      <maximumStackSize value="128" />
+      <properties>
+        <property name="PLATFORM_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform" />
+        <property name="ANT_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform\apache-ant" />
+        <property name="ANT_OPTS" value="-Xmx512 -Dfile.encoding=UTF-8" />
+      </properties>
+    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/bin/custom/foundation/boschfoundationcommonrestclient/build.xml">
+      <additionalClassPath>
+        <entry path="file://$APPLICATION_PLUGINS_DIR$/Hybris-Integration-Pro/lib/rt-ant.jar" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/catalog/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/comments/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/commons/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/core/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/deliveryzone/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/europe1/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/hac/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/impex/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/maintenanceweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/mediaweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/oauth2/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/paymentstandard/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/platformservices/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/processing/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/scripting/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/testweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/validation/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/workflow/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/resources/ant/lib" />
+      </additionalClassPath>
+      <antReference name="Apache Ant version 1.10.5" />
+      <maximumHeapSize value="512" />
+      <maximumStackSize value="128" />
+      <properties>
+        <property name="PLATFORM_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform" />
+        <property name="ANT_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform\apache-ant" />
+        <property name="ANT_OPTS" value="-Xmx512 -Dfile.encoding=UTF-8" />
+      </properties>
+    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/bin/custom/foundation/boschfoundationcommonuiaddon/build.xml">
+      <additionalClassPath>
+        <entry path="file://$APPLICATION_PLUGINS_DIR$/Hybris-Integration-Pro/lib/rt-ant.jar" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/catalog/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/comments/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/commons/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/core/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/deliveryzone/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/europe1/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/hac/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/impex/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/maintenanceweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/mediaweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/oauth2/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/paymentstandard/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/platformservices/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/processing/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/scripting/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/testweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/validation/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/workflow/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/resources/ant/lib" />
+      </additionalClassPath>
+      <antReference name="Apache Ant version 1.10.5" />
+      <maximumHeapSize value="512" />
+      <maximumStackSize value="128" />
+      <properties>
+        <property name="PLATFORM_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform" />
+        <property name="ANT_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform\apache-ant" />
+        <property name="ANT_OPTS" value="-Xmx512 -Dfile.encoding=UTF-8" />
+      </properties>
+    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/bin/custom/foundation/boschfoundationcomplianceaddon/build.xml">
+      <additionalClassPath>
+        <entry path="file://$APPLICATION_PLUGINS_DIR$/Hybris-Integration-Pro/lib/rt-ant.jar" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/catalog/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/comments/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/commons/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/core/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/deliveryzone/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/europe1/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/hac/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/impex/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/maintenanceweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/mediaweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/oauth2/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/paymentstandard/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/platformservices/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/processing/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/scripting/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/testweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/validation/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/workflow/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/resources/ant/lib" />
+      </additionalClassPath>
+      <antReference name="Apache Ant version 1.10.5" />
+      <maximumHeapSize value="512" />
+      <maximumStackSize value="128" />
+      <properties>
+        <property name="PLATFORM_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform" />
+        <property name="ANT_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform\apache-ant" />
+        <property name="ANT_OPTS" value="-Xmx512 -Dfile.encoding=UTF-8" />
+      </properties>
+    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/bin/custom/foundation/boschfoundationcompliancefacade/build.xml">
+      <additionalClassPath>
+        <entry path="file://$APPLICATION_PLUGINS_DIR$/Hybris-Integration-Pro/lib/rt-ant.jar" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/catalog/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/comments/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/commons/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/core/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/deliveryzone/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/europe1/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/hac/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/impex/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/maintenanceweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/mediaweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/oauth2/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/paymentstandard/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/platformservices/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/processing/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/scripting/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/testweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/validation/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/workflow/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/resources/ant/lib" />
+      </additionalClassPath>
+      <antReference name="Apache Ant version 1.10.5" />
+      <maximumHeapSize value="512" />
+      <maximumStackSize value="128" />
+      <properties>
+        <property name="PLATFORM_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform" />
+        <property name="ANT_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform\apache-ant" />
+        <property name="ANT_OPTS" value="-Xmx512 -Dfile.encoding=UTF-8" />
+      </properties>
+    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/bin/custom/foundation/boschfoundationcomplianceservice/build.xml">
+      <additionalClassPath>
+        <entry path="file://$APPLICATION_PLUGINS_DIR$/Hybris-Integration-Pro/lib/rt-ant.jar" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/catalog/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/comments/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/commons/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/core/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/deliveryzone/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/europe1/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/hac/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/impex/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/maintenanceweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/mediaweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/oauth2/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/paymentstandard/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/platformservices/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/processing/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/scripting/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/testweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/validation/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/workflow/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/resources/ant/lib" />
+      </additionalClassPath>
+      <antReference name="Apache Ant version 1.10.5" />
+      <maximumHeapSize value="512" />
+      <maximumStackSize value="128" />
+      <properties>
+        <property name="PLATFORM_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform" />
+        <property name="ANT_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform\apache-ant" />
+        <property name="ANT_OPTS" value="-Xmx512 -Dfile.encoding=UTF-8" />
+      </properties>
+    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/bin/custom/foundation/boschfoundationcontextualattributevalues/build.xml">
+      <additionalClassPath>
+        <entry path="file://$APPLICATION_PLUGINS_DIR$/Hybris-Integration-Pro/lib/rt-ant.jar" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/catalog/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/comments/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/commons/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/core/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/deliveryzone/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/europe1/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/hac/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/impex/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/maintenanceweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/mediaweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/oauth2/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/paymentstandard/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/platformservices/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/processing/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/scripting/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/testweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/validation/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/workflow/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/resources/ant/lib" />
+      </additionalClassPath>
+      <antReference name="Apache Ant version 1.10.5" />
+      <maximumHeapSize value="512" />
+      <maximumStackSize value="128" />
+      <properties>
+        <property name="PLATFORM_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform" />
+        <property name="ANT_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform\apache-ant" />
+        <property name="ANT_OPTS" value="-Xmx512 -Dfile.encoding=UTF-8" />
+      </properties>
+    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/bin/custom/foundation/boschfoundationcontextualattributevaluesbackoffice/build.xml">
+      <additionalClassPath>
+        <entry path="file://$APPLICATION_PLUGINS_DIR$/Hybris-Integration-Pro/lib/rt-ant.jar" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/catalog/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/comments/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/commons/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/core/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/deliveryzone/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/europe1/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/hac/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/impex/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/maintenanceweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/mediaweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/oauth2/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/paymentstandard/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/platformservices/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/processing/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/scripting/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/testweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/validation/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/workflow/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/resources/ant/lib" />
+      </additionalClassPath>
+      <antReference name="Apache Ant version 1.10.5" />
+      <maximumHeapSize value="512" />
+      <maximumStackSize value="128" />
+      <properties>
+        <property name="PLATFORM_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform" />
+        <property name="ANT_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform\apache-ant" />
+        <property name="ANT_OPTS" value="-Xmx512 -Dfile.encoding=UTF-8" />
+      </properties>
+    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/bin/custom/foundation/boschfoundationcore/build.xml">
+      <additionalClassPath>
+        <entry path="file://$APPLICATION_PLUGINS_DIR$/Hybris-Integration-Pro/lib/rt-ant.jar" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/catalog/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/comments/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/commons/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/core/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/deliveryzone/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/europe1/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/hac/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/impex/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/maintenanceweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/mediaweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/oauth2/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/paymentstandard/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/platformservices/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/processing/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/scripting/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/testweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/validation/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/workflow/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/resources/ant/lib" />
+      </additionalClassPath>
+      <antReference name="Apache Ant version 1.10.5" />
+      <maximumHeapSize value="512" />
+      <maximumStackSize value="128" />
+      <properties>
+        <property name="PLATFORM_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform" />
+        <property name="ANT_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform\apache-ant" />
+        <property name="ANT_OPTS" value="-Xmx512 -Dfile.encoding=UTF-8" />
+      </properties>
+    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/bin/custom/foundation/boschfoundationdocumentserviceclient/build.xml">
+      <additionalClassPath>
+        <entry path="file://$APPLICATION_PLUGINS_DIR$/Hybris-Integration-Pro/lib/rt-ant.jar" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/catalog/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/comments/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/commons/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/core/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/deliveryzone/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/europe1/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/hac/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/impex/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/maintenanceweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/mediaweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/oauth2/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/paymentstandard/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/platformservices/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/processing/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/scripting/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/testweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/validation/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/workflow/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/resources/ant/lib" />
+      </additionalClassPath>
+      <antReference name="Apache Ant version 1.10.5" />
+      <maximumHeapSize value="512" />
+      <maximumStackSize value="128" />
+      <properties>
+        <property name="PLATFORM_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform" />
+        <property name="ANT_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform\apache-ant" />
+        <property name="ANT_OPTS" value="-Xmx512 -Dfile.encoding=UTF-8" />
+      </properties>
+    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/bin/custom/foundation/boschfoundationemployee/build.xml">
+      <additionalClassPath>
+        <entry path="file://$APPLICATION_PLUGINS_DIR$/Hybris-Integration-Pro/lib/rt-ant.jar" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/catalog/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/comments/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/commons/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/core/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/deliveryzone/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/europe1/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/hac/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/impex/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/maintenanceweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/mediaweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/oauth2/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/paymentstandard/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/platformservices/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/processing/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/scripting/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/testweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/validation/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/workflow/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/resources/ant/lib" />
+      </additionalClassPath>
+      <antReference name="Apache Ant version 1.10.5" />
+      <maximumHeapSize value="512" />
+      <maximumStackSize value="128" />
+      <properties>
+        <property name="PLATFORM_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform" />
+        <property name="ANT_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform\apache-ant" />
+        <property name="ANT_OPTS" value="-Xmx512 -Dfile.encoding=UTF-8" />
+      </properties>
+    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/bin/custom/foundation/boschfoundationemployeebackoffice/build.xml">
+      <additionalClassPath>
+        <entry path="file://$APPLICATION_PLUGINS_DIR$/Hybris-Integration-Pro/lib/rt-ant.jar" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/catalog/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/comments/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/commons/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/core/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/deliveryzone/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/europe1/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/hac/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/impex/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/maintenanceweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/mediaweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/oauth2/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/paymentstandard/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/platformservices/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/processing/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/scripting/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/testweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/validation/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/workflow/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/resources/ant/lib" />
+      </additionalClassPath>
+      <antReference name="Apache Ant version 1.10.5" />
+      <maximumHeapSize value="512" />
+      <maximumStackSize value="128" />
+      <properties>
+        <property name="PLATFORM_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform" />
+        <property name="ANT_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform\apache-ant" />
+        <property name="ANT_OPTS" value="-Xmx512 -Dfile.encoding=UTF-8" />
+      </properties>
+    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/bin/custom/foundation/boschfoundationfacades/build.xml">
+      <additionalClassPath>
+        <entry path="file://$APPLICATION_PLUGINS_DIR$/Hybris-Integration-Pro/lib/rt-ant.jar" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/catalog/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/comments/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/commons/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/core/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/deliveryzone/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/europe1/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/hac/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/impex/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/maintenanceweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/mediaweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/oauth2/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/paymentstandard/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/platformservices/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/processing/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/scripting/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/testweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/validation/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/workflow/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/resources/ant/lib" />
+      </additionalClassPath>
+      <antReference name="Apache Ant version 1.10.5" />
+      <maximumHeapSize value="512" />
+      <maximumStackSize value="128" />
+      <properties>
+        <property name="PLATFORM_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform" />
+        <property name="ANT_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform\apache-ant" />
+        <property name="ANT_OPTS" value="-Xmx512 -Dfile.encoding=UTF-8" />
+      </properties>
+    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/bin/custom/foundation/boschfoundationimpersonationcore/build.xml">
+      <additionalClassPath>
+        <entry path="file://$APPLICATION_PLUGINS_DIR$/Hybris-Integration-Pro/lib/rt-ant.jar" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/catalog/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/comments/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/commons/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/core/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/deliveryzone/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/europe1/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/hac/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/impex/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/maintenanceweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/mediaweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/oauth2/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/paymentstandard/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/platformservices/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/processing/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/scripting/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/testweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/validation/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/workflow/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/resources/ant/lib" />
+      </additionalClassPath>
+      <antReference name="Apache Ant version 1.10.5" />
+      <maximumHeapSize value="512" />
+      <maximumStackSize value="128" />
+      <properties>
+        <property name="PLATFORM_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform" />
+        <property name="ANT_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform\apache-ant" />
+        <property name="ANT_OPTS" value="-Xmx512 -Dfile.encoding=UTF-8" />
+      </properties>
+    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/bin/custom/foundation/boschfoundationinvoicehistaddon/build.xml">
+      <additionalClassPath>
+        <entry path="file://$APPLICATION_PLUGINS_DIR$/Hybris-Integration-Pro/lib/rt-ant.jar" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/catalog/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/comments/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/commons/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/core/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/deliveryzone/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/europe1/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/hac/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/impex/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/maintenanceweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/mediaweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/oauth2/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/paymentstandard/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/platformservices/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/processing/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/scripting/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/testweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/validation/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/workflow/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/resources/ant/lib" />
+      </additionalClassPath>
+      <antReference name="Apache Ant version 1.10.5" />
+      <maximumHeapSize value="512" />
+      <maximumStackSize value="128" />
+      <properties>
+        <property name="PLATFORM_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform" />
+        <property name="ANT_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform\apache-ant" />
+        <property name="ANT_OPTS" value="-Xmx512 -Dfile.encoding=UTF-8" />
+      </properties>
+    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/bin/custom/foundation/boschfoundationinvoicehistoryclient/build.xml">
+      <additionalClassPath>
+        <entry path="file://$APPLICATION_PLUGINS_DIR$/Hybris-Integration-Pro/lib/rt-ant.jar" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/catalog/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/comments/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/commons/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/core/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/deliveryzone/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/europe1/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/hac/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/impex/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/maintenanceweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/mediaweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/oauth2/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/paymentstandard/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/platformservices/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/processing/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/scripting/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/testweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/validation/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/workflow/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/resources/ant/lib" />
+      </additionalClassPath>
+      <antReference name="Apache Ant version 1.10.5" />
+      <maximumHeapSize value="512" />
+      <maximumStackSize value="128" />
+      <properties>
+        <property name="PLATFORM_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform" />
+        <property name="ANT_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform\apache-ant" />
+        <property name="ANT_OPTS" value="-Xmx512 -Dfile.encoding=UTF-8" />
+      </properties>
+    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/bin/custom/foundation/boschfoundationmulticountry/build.xml">
+      <additionalClassPath>
+        <entry path="file://$APPLICATION_PLUGINS_DIR$/Hybris-Integration-Pro/lib/rt-ant.jar" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/catalog/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/comments/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/commons/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/core/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/deliveryzone/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/europe1/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/hac/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/impex/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/maintenanceweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/mediaweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/oauth2/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/paymentstandard/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/platformservices/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/processing/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/scripting/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/testweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/validation/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/workflow/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/resources/ant/lib" />
+      </additionalClassPath>
+      <antReference name="Apache Ant version 1.10.5" />
+      <maximumHeapSize value="512" />
+      <maximumStackSize value="128" />
+      <properties>
+        <property name="PLATFORM_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform" />
+        <property name="ANT_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform\apache-ant" />
+        <property name="ANT_OPTS" value="-Xmx512 -Dfile.encoding=UTF-8" />
+      </properties>
+    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/bin/custom/foundation/boschfoundationmulticountrybackoffice/build.xml">
+      <additionalClassPath>
+        <entry path="file://$APPLICATION_PLUGINS_DIR$/Hybris-Integration-Pro/lib/rt-ant.jar" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/catalog/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/comments/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/commons/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/core/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/deliveryzone/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/europe1/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/hac/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/impex/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/maintenanceweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/mediaweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/oauth2/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/paymentstandard/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/platformservices/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/processing/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/scripting/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/testweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/validation/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/workflow/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/resources/ant/lib" />
+      </additionalClassPath>
+      <antReference name="Apache Ant version 1.10.5" />
+      <maximumHeapSize value="512" />
+      <maximumStackSize value="128" />
+      <properties>
+        <property name="PLATFORM_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform" />
+        <property name="ANT_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform\apache-ant" />
+        <property name="ANT_OPTS" value="-Xmx512 -Dfile.encoding=UTF-8" />
+      </properties>
+    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/bin/custom/foundation/boschfoundationmulticountrywidgetsbackoffice/build.xml">
+      <additionalClassPath>
+        <entry path="file://$APPLICATION_PLUGINS_DIR$/Hybris-Integration-Pro/lib/rt-ant.jar" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/catalog/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/comments/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/commons/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/core/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/deliveryzone/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/europe1/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/hac/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/impex/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/maintenanceweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/mediaweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/oauth2/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/paymentstandard/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/platformservices/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/processing/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/scripting/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/testweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/validation/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/workflow/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/resources/ant/lib" />
+      </additionalClassPath>
+      <antReference name="Apache Ant version 1.10.5" />
+      <maximumHeapSize value="512" />
+      <maximumStackSize value="128" />
+      <properties>
+        <property name="PLATFORM_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform" />
+        <property name="ANT_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform\apache-ant" />
+        <property name="ANT_OPTS" value="-Xmx512 -Dfile.encoding=UTF-8" />
+      </properties>
+    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/bin/custom/foundation/boschfoundationmyaccountaddon/build.xml">
+      <additionalClassPath>
+        <entry path="file://$APPLICATION_PLUGINS_DIR$/Hybris-Integration-Pro/lib/rt-ant.jar" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/catalog/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/comments/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/commons/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/core/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/deliveryzone/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/europe1/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/hac/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/impex/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/maintenanceweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/mediaweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/oauth2/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/paymentstandard/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/platformservices/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/processing/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/scripting/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/testweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/validation/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/workflow/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/resources/ant/lib" />
+      </additionalClassPath>
+      <antReference name="Apache Ant version 1.10.5" />
+      <maximumHeapSize value="512" />
+      <maximumStackSize value="128" />
+      <properties>
+        <property name="PLATFORM_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform" />
+        <property name="ANT_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform\apache-ant" />
+        <property name="ANT_OPTS" value="-Xmx512 -Dfile.encoding=UTF-8" />
+      </properties>
+    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/bin/custom/foundation/boschfoundationmyaccountfacades/build.xml">
+      <additionalClassPath>
+        <entry path="file://$APPLICATION_PLUGINS_DIR$/Hybris-Integration-Pro/lib/rt-ant.jar" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/catalog/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/comments/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/commons/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/core/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/deliveryzone/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/europe1/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/hac/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/impex/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/maintenanceweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/mediaweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/oauth2/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/paymentstandard/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/platformservices/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/processing/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/scripting/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/testweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/validation/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/workflow/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/resources/ant/lib" />
+      </additionalClassPath>
+      <antReference name="Apache Ant version 1.10.5" />
+      <maximumHeapSize value="512" />
+      <maximumStackSize value="128" />
+      <properties>
+        <property name="PLATFORM_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform" />
+        <property name="ANT_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform\apache-ant" />
+        <property name="ANT_OPTS" value="-Xmx512 -Dfile.encoding=UTF-8" />
+      </properties>
+    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/bin/custom/foundation/boschfoundationnestedb2bunits/build.xml">
+      <additionalClassPath>
+        <entry path="file://$APPLICATION_PLUGINS_DIR$/Hybris-Integration-Pro/lib/rt-ant.jar" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/catalog/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/comments/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/commons/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/core/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/deliveryzone/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/europe1/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/hac/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/impex/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/maintenanceweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/mediaweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/oauth2/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/paymentstandard/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/platformservices/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/processing/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/scripting/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/testweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/validation/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/workflow/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/resources/ant/lib" />
+      </additionalClassPath>
+      <antReference name="Apache Ant version 1.10.5" />
+      <maximumHeapSize value="512" />
+      <maximumStackSize value="128" />
+      <properties>
+        <property name="PLATFORM_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform" />
+        <property name="ANT_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform\apache-ant" />
+        <property name="ANT_OPTS" value="-Xmx512 -Dfile.encoding=UTF-8" />
+      </properties>
+    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/bin/custom/foundation/boschfoundationorderbackoffice/build.xml">
+      <additionalClassPath>
+        <entry path="file://$APPLICATION_PLUGINS_DIR$/Hybris-Integration-Pro/lib/rt-ant.jar" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/catalog/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/comments/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/commons/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/core/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/deliveryzone/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/europe1/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/hac/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/impex/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/maintenanceweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/mediaweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/oauth2/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/paymentstandard/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/platformservices/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/processing/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/scripting/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/testweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/validation/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/workflow/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/resources/ant/lib" />
+      </additionalClassPath>
+      <antReference name="Apache Ant version 1.10.5" />
+      <maximumHeapSize value="512" />
+      <maximumStackSize value="128" />
+      <properties>
+        <property name="PLATFORM_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform" />
+        <property name="ANT_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform\apache-ant" />
+        <property name="ANT_OPTS" value="-Xmx512 -Dfile.encoding=UTF-8" />
+      </properties>
+    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/bin/custom/foundation/boschfoundationordercore/build.xml">
+      <additionalClassPath>
+        <entry path="file://$APPLICATION_PLUGINS_DIR$/Hybris-Integration-Pro/lib/rt-ant.jar" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/catalog/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/comments/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/commons/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/core/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/deliveryzone/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/europe1/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/hac/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/impex/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/maintenanceweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/mediaweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/oauth2/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/paymentstandard/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/platformservices/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/processing/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/scripting/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/testweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/validation/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/workflow/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/resources/ant/lib" />
+      </additionalClassPath>
+      <antReference name="Apache Ant version 1.10.5" />
+      <maximumHeapSize value="512" />
+      <maximumStackSize value="128" />
+      <properties>
+        <property name="PLATFORM_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform" />
+        <property name="ANT_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform\apache-ant" />
+        <property name="ANT_OPTS" value="-Xmx512 -Dfile.encoding=UTF-8" />
+      </properties>
+    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/bin/custom/foundation/boschfoundationorderfacade/build.xml">
+      <additionalClassPath>
+        <entry path="file://$APPLICATION_PLUGINS_DIR$/Hybris-Integration-Pro/lib/rt-ant.jar" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/catalog/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/comments/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/commons/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/core/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/deliveryzone/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/europe1/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/hac/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/impex/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/maintenanceweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/mediaweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/oauth2/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/paymentstandard/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/platformservices/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/processing/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/scripting/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/testweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/validation/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/workflow/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/resources/ant/lib" />
+      </additionalClassPath>
+      <antReference name="Apache Ant version 1.10.5" />
+      <maximumHeapSize value="512" />
+      <maximumStackSize value="128" />
+      <properties>
+        <property name="PLATFORM_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform" />
+        <property name="ANT_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform\apache-ant" />
+        <property name="ANT_OPTS" value="-Xmx512 -Dfile.encoding=UTF-8" />
+      </properties>
+    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/bin/custom/foundation/boschfoundationorderhistaddon/build.xml">
+      <additionalClassPath>
+        <entry path="file://$APPLICATION_PLUGINS_DIR$/Hybris-Integration-Pro/lib/rt-ant.jar" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/catalog/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/comments/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/commons/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/core/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/deliveryzone/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/europe1/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/hac/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/impex/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/maintenanceweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/mediaweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/oauth2/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/paymentstandard/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/platformservices/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/processing/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/scripting/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/testweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/validation/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/workflow/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/resources/ant/lib" />
+      </additionalClassPath>
+      <antReference name="Apache Ant version 1.10.5" />
+      <maximumHeapSize value="512" />
+      <maximumStackSize value="128" />
+      <properties>
+        <property name="PLATFORM_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform" />
+        <property name="ANT_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform\apache-ant" />
+        <property name="ANT_OPTS" value="-Xmx512 -Dfile.encoding=UTF-8" />
+      </properties>
+    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/bin/custom/foundation/boschfoundationorderhistcore/build.xml">
+      <additionalClassPath>
+        <entry path="file://$APPLICATION_PLUGINS_DIR$/Hybris-Integration-Pro/lib/rt-ant.jar" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/catalog/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/comments/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/commons/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/core/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/deliveryzone/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/europe1/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/hac/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/impex/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/maintenanceweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/mediaweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/oauth2/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/paymentstandard/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/platformservices/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/processing/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/scripting/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/testweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/validation/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/workflow/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/resources/ant/lib" />
+      </additionalClassPath>
+      <antReference name="Apache Ant version 1.10.5" />
+      <maximumHeapSize value="512" />
+      <maximumStackSize value="128" />
+      <properties>
+        <property name="PLATFORM_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform" />
+        <property name="ANT_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform\apache-ant" />
+        <property name="ANT_OPTS" value="-Xmx512 -Dfile.encoding=UTF-8" />
+      </properties>
+    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/bin/custom/foundation/boschfoundationorderservice/build.xml">
+      <additionalClassPath>
+        <entry path="file://$APPLICATION_PLUGINS_DIR$/Hybris-Integration-Pro/lib/rt-ant.jar" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/catalog/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/comments/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/commons/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/core/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/deliveryzone/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/europe1/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/hac/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/impex/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/maintenanceweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/mediaweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/oauth2/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/paymentstandard/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/platformservices/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/processing/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/scripting/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/testweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/validation/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/workflow/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/resources/ant/lib" />
+      </additionalClassPath>
+      <antReference name="Apache Ant version 1.10.5" />
+      <maximumHeapSize value="512" />
+      <maximumStackSize value="128" />
+      <properties>
+        <property name="PLATFORM_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform" />
+        <property name="ANT_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform\apache-ant" />
+        <property name="ANT_OPTS" value="-Xmx512 -Dfile.encoding=UTF-8" />
+      </properties>
+    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/bin/custom/foundation/boschfoundationproductaddon/build.xml">
+      <additionalClassPath>
+        <entry path="file://$APPLICATION_PLUGINS_DIR$/Hybris-Integration-Pro/lib/rt-ant.jar" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/catalog/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/comments/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/commons/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/core/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/deliveryzone/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/europe1/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/hac/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/impex/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/maintenanceweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/mediaweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/oauth2/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/paymentstandard/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/platformservices/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/processing/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/scripting/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/testweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/validation/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/workflow/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/resources/ant/lib" />
+      </additionalClassPath>
+      <antReference name="Apache Ant version 1.10.5" />
+      <maximumHeapSize value="512" />
+      <maximumStackSize value="128" />
+      <properties>
+        <property name="PLATFORM_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform" />
+        <property name="ANT_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform\apache-ant" />
+        <property name="ANT_OPTS" value="-Xmx512 -Dfile.encoding=UTF-8" />
+      </properties>
+    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/bin/custom/foundation/boschfoundationproductbackoffice/build.xml">
+      <additionalClassPath>
+        <entry path="file://$APPLICATION_PLUGINS_DIR$/Hybris-Integration-Pro/lib/rt-ant.jar" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/catalog/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/comments/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/commons/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/core/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/deliveryzone/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/europe1/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/hac/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/impex/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/maintenanceweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/mediaweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/oauth2/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/paymentstandard/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/platformservices/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/processing/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/scripting/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/testweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/validation/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/workflow/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/resources/ant/lib" />
+      </additionalClassPath>
+      <antReference name="Apache Ant version 1.10.5" />
+      <maximumHeapSize value="512" />
+      <maximumStackSize value="128" />
+      <properties>
+        <property name="PLATFORM_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform" />
+        <property name="ANT_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform\apache-ant" />
+        <property name="ANT_OPTS" value="-Xmx512 -Dfile.encoding=UTF-8" />
+      </properties>
+    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/bin/custom/foundation/boschfoundationproductcore/build.xml">
+      <additionalClassPath>
+        <entry path="file://$APPLICATION_PLUGINS_DIR$/Hybris-Integration-Pro/lib/rt-ant.jar" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/catalog/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/comments/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/commons/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/core/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/deliveryzone/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/europe1/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/hac/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/impex/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/maintenanceweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/mediaweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/oauth2/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/paymentstandard/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/platformservices/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/processing/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/scripting/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/testweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/validation/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/workflow/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/resources/ant/lib" />
+      </additionalClassPath>
+      <antReference name="Apache Ant version 1.10.5" />
+      <maximumHeapSize value="512" />
+      <maximumStackSize value="128" />
+      <properties>
+        <property name="PLATFORM_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform" />
+        <property name="ANT_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform\apache-ant" />
+        <property name="ANT_OPTS" value="-Xmx512 -Dfile.encoding=UTF-8" />
+      </properties>
+    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/bin/custom/foundation/boschfoundationproductfacades/build.xml">
+      <additionalClassPath>
+        <entry path="file://$APPLICATION_PLUGINS_DIR$/Hybris-Integration-Pro/lib/rt-ant.jar" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/catalog/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/comments/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/commons/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/core/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/deliveryzone/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/europe1/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/hac/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/impex/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/maintenanceweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/mediaweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/oauth2/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/paymentstandard/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/platformservices/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/processing/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/scripting/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/testweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/validation/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/workflow/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/resources/ant/lib" />
+      </additionalClassPath>
+      <antReference name="Apache Ant version 1.10.5" />
+      <maximumHeapSize value="512" />
+      <maximumStackSize value="128" />
+      <properties>
+        <property name="PLATFORM_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform" />
+        <property name="ANT_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform\apache-ant" />
+        <property name="ANT_OPTS" value="-Xmx512 -Dfile.encoding=UTF-8" />
+      </properties>
+    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/bin/custom/foundation/boschfoundationproductservices/build.xml">
+      <additionalClassPath>
+        <entry path="file://$APPLICATION_PLUGINS_DIR$/Hybris-Integration-Pro/lib/rt-ant.jar" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/catalog/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/comments/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/commons/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/core/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/deliveryzone/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/europe1/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/hac/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/impex/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/maintenanceweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/mediaweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/oauth2/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/paymentstandard/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/platformservices/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/processing/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/scripting/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/testweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/validation/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/workflow/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/resources/ant/lib" />
+      </additionalClassPath>
+      <antReference name="Apache Ant version 1.10.5" />
+      <maximumHeapSize value="512" />
+      <maximumStackSize value="128" />
+      <properties>
+        <property name="PLATFORM_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform" />
+        <property name="ANT_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform\apache-ant" />
+        <property name="ANT_OPTS" value="-Xmx512 -Dfile.encoding=UTF-8" />
+      </properties>
+    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/bin/custom/foundation/boschfoundationquickorderaddon/build.xml">
+      <additionalClassPath>
+        <entry path="file://$APPLICATION_PLUGINS_DIR$/Hybris-Integration-Pro/lib/rt-ant.jar" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/catalog/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/comments/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/commons/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/core/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/deliveryzone/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/europe1/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/hac/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/impex/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/maintenanceweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/mediaweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/oauth2/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/paymentstandard/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/platformservices/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/processing/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/scripting/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/testweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/validation/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/workflow/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/resources/ant/lib" />
+      </additionalClassPath>
+      <antReference name="Apache Ant version 1.10.5" />
+      <maximumHeapSize value="512" />
+      <maximumStackSize value="128" />
+      <properties>
+        <property name="PLATFORM_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform" />
+        <property name="ANT_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform\apache-ant" />
+        <property name="ANT_OPTS" value="-Xmx512 -Dfile.encoding=UTF-8" />
+      </properties>
+    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/bin/custom/foundation/boschfoundationquickorderpopupaddon/build.xml">
+      <additionalClassPath>
+        <entry path="file://$APPLICATION_PLUGINS_DIR$/Hybris-Integration-Pro/lib/rt-ant.jar" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/catalog/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/comments/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/commons/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/core/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/deliveryzone/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/europe1/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/hac/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/impex/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/maintenanceweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/mediaweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/oauth2/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/paymentstandard/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/platformservices/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/processing/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/scripting/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/testweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/validation/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/workflow/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/resources/ant/lib" />
+      </additionalClassPath>
+      <antReference name="Apache Ant version 1.10.5" />
+      <maximumHeapSize value="512" />
+      <maximumStackSize value="128" />
+      <properties>
+        <property name="PLATFORM_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform" />
+        <property name="ANT_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform\apache-ant" />
+        <property name="ANT_OPTS" value="-Xmx512 -Dfile.encoding=UTF-8" />
+      </properties>
+    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/bin/custom/foundation/boschfoundationrbnavigationclient/build.xml">
+      <additionalClassPath>
+        <entry path="file://$APPLICATION_PLUGINS_DIR$/Hybris-Integration-Pro/lib/rt-ant.jar" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/catalog/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/comments/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/commons/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/core/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/deliveryzone/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/europe1/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/hac/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/impex/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/maintenanceweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/mediaweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/oauth2/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/paymentstandard/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/platformservices/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/processing/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/scripting/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/testweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/validation/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/workflow/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/resources/ant/lib" />
+      </additionalClassPath>
+      <antReference name="Apache Ant version 1.10.5" />
+      <maximumHeapSize value="512" />
+      <maximumStackSize value="128" />
+      <properties>
+        <property name="PLATFORM_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform" />
+        <property name="ANT_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform\apache-ant" />
+        <property name="ANT_OPTS" value="-Xmx512 -Dfile.encoding=UTF-8" />
+      </properties>
+    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/bin/custom/foundation/boschfoundationrbnavigationcore/build.xml">
+      <additionalClassPath>
+        <entry path="file://$APPLICATION_PLUGINS_DIR$/Hybris-Integration-Pro/lib/rt-ant.jar" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/catalog/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/comments/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/commons/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/core/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/deliveryzone/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/europe1/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/hac/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/impex/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/maintenanceweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/mediaweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/oauth2/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/paymentstandard/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/platformservices/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/processing/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/scripting/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/testweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/validation/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/workflow/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/resources/ant/lib" />
+      </additionalClassPath>
+      <antReference name="Apache Ant version 1.10.5" />
+      <maximumHeapSize value="512" />
+      <maximumStackSize value="128" />
+      <properties>
+        <property name="PLATFORM_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform" />
+        <property name="ANT_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform\apache-ant" />
+        <property name="ANT_OPTS" value="-Xmx512 -Dfile.encoding=UTF-8" />
+      </properties>
+    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/bin/custom/foundation/boschfoundationrbpaymentaddon/build.xml">
+      <additionalClassPath>
+        <entry path="file://$APPLICATION_PLUGINS_DIR$/Hybris-Integration-Pro/lib/rt-ant.jar" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/catalog/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/comments/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/commons/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/core/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/deliveryzone/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/europe1/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/hac/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/impex/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/maintenanceweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/mediaweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/oauth2/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/paymentstandard/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/platformservices/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/processing/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/scripting/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/testweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/validation/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/workflow/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/resources/ant/lib" />
+      </additionalClassPath>
+      <antReference name="Apache Ant version 1.10.5" />
+      <maximumHeapSize value="512" />
+      <maximumStackSize value="128" />
+      <properties>
+        <property name="PLATFORM_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform" />
+        <property name="ANT_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform\apache-ant" />
+        <property name="ANT_OPTS" value="-Xmx512 -Dfile.encoding=UTF-8" />
+      </properties>
+    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/bin/custom/foundation/boschfoundationrbpaymentcore/build.xml">
+      <additionalClassPath>
+        <entry path="file://$APPLICATION_PLUGINS_DIR$/Hybris-Integration-Pro/lib/rt-ant.jar" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/catalog/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/comments/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/commons/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/core/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/deliveryzone/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/europe1/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/hac/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/impex/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/maintenanceweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/mediaweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/oauth2/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/paymentstandard/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/platformservices/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/processing/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/scripting/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/testweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/validation/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/workflow/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/resources/ant/lib" />
+      </additionalClassPath>
+      <antReference name="Apache Ant version 1.10.5" />
+      <maximumHeapSize value="512" />
+      <maximumStackSize value="128" />
+      <properties>
+        <property name="PLATFORM_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform" />
+        <property name="ANT_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform\apache-ant" />
+        <property name="ANT_OPTS" value="-Xmx512 -Dfile.encoding=UTF-8" />
+      </properties>
+    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/bin/custom/foundation/boschfoundationregistrationaddon/build.xml">
+      <additionalClassPath>
+        <entry path="file://$APPLICATION_PLUGINS_DIR$/Hybris-Integration-Pro/lib/rt-ant.jar" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/catalog/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/comments/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/commons/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/core/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/deliveryzone/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/europe1/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/hac/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/impex/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/maintenanceweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/mediaweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/oauth2/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/paymentstandard/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/platformservices/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/processing/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/scripting/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/testweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/validation/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/workflow/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/resources/ant/lib" />
+      </additionalClassPath>
+      <antReference name="Apache Ant version 1.10.5" />
+      <maximumHeapSize value="512" />
+      <maximumStackSize value="128" />
+      <properties>
+        <property name="PLATFORM_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform" />
+        <property name="ANT_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform\apache-ant" />
+        <property name="ANT_OPTS" value="-Xmx512 -Dfile.encoding=UTF-8" />
+      </properties>
+    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/bin/custom/foundation/boschfoundationrestorder/build.xml">
+      <additionalClassPath>
+        <entry path="file://$APPLICATION_PLUGINS_DIR$/Hybris-Integration-Pro/lib/rt-ant.jar" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/catalog/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/comments/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/commons/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/core/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/deliveryzone/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/europe1/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/hac/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/impex/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/maintenanceweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/mediaweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/oauth2/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/paymentstandard/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/platformservices/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/processing/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/scripting/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/testweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/validation/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/workflow/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/resources/ant/lib" />
+      </additionalClassPath>
+      <antReference name="Apache Ant version 1.10.5" />
+      <maximumHeapSize value="512" />
+      <maximumStackSize value="128" />
+      <properties>
+        <property name="PLATFORM_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform" />
+        <property name="ANT_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform\apache-ant" />
+        <property name="ANT_OPTS" value="-Xmx512 -Dfile.encoding=UTF-8" />
+      </properties>
+    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/bin/custom/foundation/boschfoundationrestorderclient/build.xml">
+      <additionalClassPath>
+        <entry path="file://$APPLICATION_PLUGINS_DIR$/Hybris-Integration-Pro/lib/rt-ant.jar" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/catalog/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/comments/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/commons/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/core/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/deliveryzone/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/europe1/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/hac/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/impex/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/maintenanceweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/mediaweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/oauth2/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/paymentstandard/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/platformservices/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/processing/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/scripting/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/testweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/validation/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/workflow/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/resources/ant/lib" />
+      </additionalClassPath>
+      <antReference name="Apache Ant version 1.10.5" />
+      <maximumHeapSize value="512" />
+      <maximumStackSize value="128" />
+      <properties>
+        <property name="PLATFORM_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform" />
+        <property name="ANT_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform\apache-ant" />
+        <property name="ANT_OPTS" value="-Xmx512 -Dfile.encoding=UTF-8" />
+      </properties>
+    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/bin/custom/foundation/boschfoundationsearchaddon/build.xml">
+      <additionalClassPath>
+        <entry path="file://$APPLICATION_PLUGINS_DIR$/Hybris-Integration-Pro/lib/rt-ant.jar" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/catalog/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/comments/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/commons/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/core/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/deliveryzone/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/europe1/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/hac/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/impex/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/maintenanceweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/mediaweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/oauth2/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/paymentstandard/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/platformservices/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/processing/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/scripting/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/testweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/validation/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/workflow/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/resources/ant/lib" />
+      </additionalClassPath>
+      <antReference name="Apache Ant version 1.10.5" />
+      <maximumHeapSize value="512" />
+      <maximumStackSize value="128" />
+      <properties>
+        <property name="PLATFORM_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform" />
+        <property name="ANT_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform\apache-ant" />
+        <property name="ANT_OPTS" value="-Xmx512 -Dfile.encoding=UTF-8" />
+      </properties>
+    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/bin/custom/foundation/boschfoundationsubscripitionproductaddon/build.xml">
+      <additionalClassPath>
+        <entry path="file://$APPLICATION_PLUGINS_DIR$/Hybris-Integration-Pro/lib/rt-ant.jar" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/catalog/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/comments/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/commons/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/core/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/deliveryzone/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/europe1/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/hac/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/impex/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/maintenanceweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/mediaweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/oauth2/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/paymentstandard/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/platformservices/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/processing/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/scripting/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/testweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/validation/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/workflow/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/resources/ant/lib" />
+      </additionalClassPath>
+      <antReference name="Apache Ant version 1.10.5" />
+      <maximumHeapSize value="512" />
+      <maximumStackSize value="128" />
+      <properties>
+        <property name="PLATFORM_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform" />
+        <property name="ANT_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform\apache-ant" />
+        <property name="ANT_OPTS" value="-Xmx512 -Dfile.encoding=UTF-8" />
+      </properties>
+    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/bin/custom/foundation/boschfoundationsubscripitionproductfacades/build.xml">
+      <additionalClassPath>
+        <entry path="file://$APPLICATION_PLUGINS_DIR$/Hybris-Integration-Pro/lib/rt-ant.jar" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/catalog/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/comments/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/commons/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/core/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/deliveryzone/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/europe1/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/hac/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/impex/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/maintenanceweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/mediaweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/oauth2/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/paymentstandard/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/platformservices/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/processing/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/scripting/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/testweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/validation/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/workflow/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/resources/ant/lib" />
+      </additionalClassPath>
+      <antReference name="Apache Ant version 1.10.5" />
+      <maximumHeapSize value="512" />
+      <maximumStackSize value="128" />
+      <properties>
+        <property name="PLATFORM_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform" />
+        <property name="ANT_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform\apache-ant" />
+        <property name="ANT_OPTS" value="-Xmx512 -Dfile.encoding=UTF-8" />
+      </properties>
+    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/bin/custom/foundation/boschfoundationsubscriptionproductapi/build.xml">
+      <additionalClassPath>
+        <entry path="file://$APPLICATION_PLUGINS_DIR$/Hybris-Integration-Pro/lib/rt-ant.jar" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/catalog/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/comments/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/commons/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/core/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/deliveryzone/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/europe1/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/hac/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/impex/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/maintenanceweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/mediaweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/oauth2/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/paymentstandard/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/platformservices/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/processing/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/scripting/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/testweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/validation/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/workflow/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/resources/ant/lib" />
+      </additionalClassPath>
+      <antReference name="Apache Ant version 1.10.5" />
+      <maximumHeapSize value="512" />
+      <maximumStackSize value="128" />
+      <properties>
+        <property name="PLATFORM_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform" />
+        <property name="ANT_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform\apache-ant" />
+        <property name="ANT_OPTS" value="-Xmx512 -Dfile.encoding=UTF-8" />
+      </properties>
+    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/bin/custom/foundation/boschfoundationsubscriptionproductbackoffice/build.xml">
+      <additionalClassPath>
+        <entry path="file://$APPLICATION_PLUGINS_DIR$/Hybris-Integration-Pro/lib/rt-ant.jar" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/catalog/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/comments/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/commons/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/core/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/deliveryzone/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/europe1/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/hac/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/impex/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/maintenanceweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/mediaweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/oauth2/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/paymentstandard/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/platformservices/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/processing/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/scripting/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/testweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/validation/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/workflow/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/resources/ant/lib" />
+      </additionalClassPath>
+      <antReference name="Apache Ant version 1.10.5" />
+      <maximumHeapSize value="512" />
+      <maximumStackSize value="128" />
+      <properties>
+        <property name="PLATFORM_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform" />
+        <property name="ANT_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform\apache-ant" />
+        <property name="ANT_OPTS" value="-Xmx512 -Dfile.encoding=UTF-8" />
+      </properties>
+    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/bin/custom/foundation/boschfoundationsubscriptionproductcore/build.xml">
+      <additionalClassPath>
+        <entry path="file://$APPLICATION_PLUGINS_DIR$/Hybris-Integration-Pro/lib/rt-ant.jar" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/catalog/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/comments/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/commons/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/core/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/deliveryzone/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/europe1/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/hac/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/impex/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/maintenanceweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/mediaweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/oauth2/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/paymentstandard/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/platformservices/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/processing/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/scripting/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/testweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/validation/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/workflow/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/resources/ant/lib" />
+      </additionalClassPath>
+      <antReference name="Apache Ant version 1.10.5" />
+      <maximumHeapSize value="512" />
+      <maximumStackSize value="128" />
+      <properties>
+        <property name="PLATFORM_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform" />
+        <property name="ANT_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform\apache-ant" />
+        <property name="ANT_OPTS" value="-Xmx512 -Dfile.encoding=UTF-8" />
+      </properties>
+    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/bin/custom/foundation/boschfoundationusermanagementaddon/build.xml">
+      <additionalClassPath>
+        <entry path="file://$APPLICATION_PLUGINS_DIR$/Hybris-Integration-Pro/lib/rt-ant.jar" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/catalog/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/comments/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/commons/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/core/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/deliveryzone/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/europe1/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/hac/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/impex/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/maintenanceweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/mediaweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/oauth2/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/paymentstandard/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/platformservices/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/processing/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/scripting/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/testweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/validation/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/workflow/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/resources/ant/lib" />
+      </additionalClassPath>
+      <antReference name="Apache Ant version 1.10.5" />
+      <maximumHeapSize value="512" />
+      <maximumStackSize value="128" />
+      <properties>
+        <property name="PLATFORM_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform" />
+        <property name="ANT_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform\apache-ant" />
+        <property name="ANT_OPTS" value="-Xmx512 -Dfile.encoding=UTF-8" />
+      </properties>
+    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/bin/custom/foundation/boschfoundationwishlistaddon/build.xml">
+      <additionalClassPath>
+        <entry path="file://$APPLICATION_PLUGINS_DIR$/Hybris-Integration-Pro/lib/rt-ant.jar" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/catalog/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/comments/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/commons/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/core/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/deliveryzone/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/europe1/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/hac/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/impex/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/maintenanceweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/mediaweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/oauth2/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/paymentstandard/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/platformservices/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/processing/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/scripting/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/testweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/validation/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/workflow/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/resources/ant/lib" />
+      </additionalClassPath>
+      <antReference name="Apache Ant version 1.10.5" />
+      <maximumHeapSize value="512" />
+      <maximumStackSize value="128" />
+      <properties>
+        <property name="PLATFORM_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform" />
+        <property name="ANT_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform\apache-ant" />
+        <property name="ANT_OPTS" value="-Xmx512 -Dfile.encoding=UTF-8" />
+      </properties>
+    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/bin/custom/foundation/internationalizationbackoffice/build.xml">
+      <additionalClassPath>
+        <entry path="file://$APPLICATION_PLUGINS_DIR$/Hybris-Integration-Pro/lib/rt-ant.jar" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/catalog/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/comments/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/commons/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/core/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/deliveryzone/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/europe1/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/hac/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/impex/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/maintenanceweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/mediaweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/oauth2/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/paymentstandard/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/platformservices/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/processing/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/scripting/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/testweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/validation/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/workflow/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/resources/ant/lib" />
+      </additionalClassPath>
+      <antReference name="Apache Ant version 1.10.5" />
+      <maximumHeapSize value="512" />
+      <maximumStackSize value="128" />
+      <properties>
+        <property name="PLATFORM_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform" />
+        <property name="ANT_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform\apache-ant" />
+        <property name="ANT_OPTS" value="-Xmx512 -Dfile.encoding=UTF-8" />
+      </properties>
+    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/bin/custom/foundation/persistentconfigurationbackoffice/build.xml">
+      <additionalClassPath>
+        <entry path="file://$APPLICATION_PLUGINS_DIR$/Hybris-Integration-Pro/lib/rt-ant.jar" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/catalog/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/comments/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/commons/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/core/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/deliveryzone/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/europe1/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/hac/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/impex/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/maintenanceweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/mediaweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/oauth2/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/paymentstandard/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/platformservices/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/processing/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/scripting/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/testweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/validation/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/workflow/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/resources/ant/lib" />
+      </additionalClassPath>
+      <antReference name="Apache Ant version 1.10.5" />
+      <maximumHeapSize value="512" />
+      <maximumStackSize value="128" />
+      <properties>
+        <property name="PLATFORM_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform" />
+        <property name="ANT_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform\apache-ant" />
+        <property name="ANT_OPTS" value="-Xmx512 -Dfile.encoding=UTF-8" />
+      </properties>
+    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/bin/custom/ptb2b/ptb2bapiaddon/build.xml">
+      <additionalClassPath>
+        <entry path="file://$APPLICATION_PLUGINS_DIR$/Hybris-Integration-Pro/lib/rt-ant.jar" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/catalog/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/comments/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/commons/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/core/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/deliveryzone/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/europe1/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/hac/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/impex/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/maintenanceweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/mediaweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/oauth2/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/paymentstandard/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/platformservices/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/processing/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/scripting/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/testweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/validation/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/workflow/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/resources/ant/lib" />
+      </additionalClassPath>
+      <antReference name="Apache Ant version 1.10.5" />
+      <maximumHeapSize value="512" />
+      <maximumStackSize value="128" />
+      <properties>
+        <property name="PLATFORM_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform" />
+        <property name="ANT_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform\apache-ant" />
+        <property name="ANT_OPTS" value="-Xmx512 -Dfile.encoding=UTF-8" />
+      </properties>
+    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/bin/custom/ptb2b/ptb2bcheckout/build.xml">
+      <additionalClassPath>
+        <entry path="file://$APPLICATION_PLUGINS_DIR$/Hybris-Integration-Pro/lib/rt-ant.jar" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/catalog/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/comments/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/commons/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/core/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/deliveryzone/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/europe1/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/hac/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/impex/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/maintenanceweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/mediaweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/oauth2/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/paymentstandard/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/platformservices/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/processing/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/scripting/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/testweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/validation/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/workflow/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/resources/ant/lib" />
+      </additionalClassPath>
+      <antReference name="Apache Ant version 1.10.5" />
+      <maximumHeapSize value="512" />
+      <maximumStackSize value="128" />
+      <properties>
+        <property name="PLATFORM_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform" />
+        <property name="ANT_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform\apache-ant" />
+        <property name="ANT_OPTS" value="-Xmx512 -Dfile.encoding=UTF-8" />
+      </properties>
+    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/bin/custom/ptb2b/ptb2bcore/build.xml">
+      <additionalClassPath>
+        <entry path="file://$APPLICATION_PLUGINS_DIR$/Hybris-Integration-Pro/lib/rt-ant.jar" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/catalog/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/comments/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/commons/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/core/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/deliveryzone/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/europe1/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/hac/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/impex/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/maintenanceweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/mediaweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/oauth2/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/paymentstandard/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/platformservices/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/processing/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/scripting/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/testweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/validation/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/workflow/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/resources/ant/lib" />
+      </additionalClassPath>
+      <antReference name="Apache Ant version 1.10.5" />
+      <maximumHeapSize value="512" />
+      <maximumStackSize value="128" />
+      <properties>
+        <property name="PLATFORM_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform" />
+        <property name="ANT_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform\apache-ant" />
+        <property name="ANT_OPTS" value="-Xmx512 -Dfile.encoding=UTF-8" />
+      </properties>
+    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/bin/custom/ptb2b/ptb2bfacades/build.xml">
+      <additionalClassPath>
+        <entry path="file://$APPLICATION_PLUGINS_DIR$/Hybris-Integration-Pro/lib/rt-ant.jar" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/catalog/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/comments/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/commons/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/core/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/deliveryzone/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/europe1/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/hac/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/impex/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/maintenanceweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/mediaweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/oauth2/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/paymentstandard/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/platformservices/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/processing/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/scripting/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/testweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/validation/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/workflow/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/resources/ant/lib" />
+      </additionalClassPath>
+      <antReference name="Apache Ant version 1.10.5" />
+      <maximumHeapSize value="512" />
+      <maximumStackSize value="128" />
+      <properties>
+        <property name="PLATFORM_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform" />
+        <property name="ANT_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform\apache-ant" />
+        <property name="ANT_OPTS" value="-Xmx512 -Dfile.encoding=UTF-8" />
+      </properties>
+    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/bin/custom/ptb2b/ptb2binitialdata/build.xml">
+      <additionalClassPath>
+        <entry path="file://$APPLICATION_PLUGINS_DIR$/Hybris-Integration-Pro/lib/rt-ant.jar" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/catalog/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/comments/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/commons/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/core/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/deliveryzone/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/europe1/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/hac/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/impex/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/maintenanceweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/mediaweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/oauth2/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/paymentstandard/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/platformservices/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/processing/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/scripting/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/testweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/validation/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/workflow/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/resources/ant/lib" />
+      </additionalClassPath>
+      <antReference name="Apache Ant version 1.10.5" />
+      <maximumHeapSize value="512" />
+      <maximumStackSize value="128" />
+      <properties>
+        <property name="PLATFORM_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform" />
+        <property name="ANT_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform\apache-ant" />
+        <property name="ANT_OPTS" value="-Xmx512 -Dfile.encoding=UTF-8" />
+      </properties>
+    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/bin/custom/ptb2b/ptb2bstorefront/build.xml">
+      <additionalClassPath>
+        <entry path="file://$APPLICATION_PLUGINS_DIR$/Hybris-Integration-Pro/lib/rt-ant.jar" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/catalog/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/comments/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/commons/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/core/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/deliveryzone/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/europe1/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/hac/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/impex/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/maintenanceweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/mediaweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/oauth2/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/paymentstandard/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/platformservices/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/processing/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/scripting/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/testweb/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/validation/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/ext/workflow/lib" />
+        <entry dir="file://$PROJECT_DIR$/bin/platform/resources/ant/lib" />
+      </additionalClassPath>
+      <antReference name="Apache Ant version 1.10.5" />
+      <maximumHeapSize value="512" />
+      <maximumStackSize value="128" />
+      <properties>
+        <property name="PLATFORM_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform" />
+        <property name="ANT_HOME" value="C:\BoschProjects\pt.fluid.b2b.dealer.portal.la-hyc\hybris\bin\platform\apache-ant" />
+        <property name="ANT_OPTS" value="-Xmx512 -Dfile.encoding=UTF-8" />
+      </properties>
+    </buildFile>
+  </component>
+</project>
