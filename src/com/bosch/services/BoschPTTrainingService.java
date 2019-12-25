@@ -4,4 +4,6 @@ public interface BoschPTTrainingService {
 
     void practiceGit();
 
+    void djihadjihacetirinoge();
+
 }
