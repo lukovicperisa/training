@@ -1,0 +1,4 @@
+#hide folders
+/gensrc
+/.idea
+/src/com/bosch/services/vuksic/LOG.txt
