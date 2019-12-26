@@ -6,7 +6,9 @@ public class DefaultBoschPTTrainingService implements BoschPTTrainingService {
 
     @Override
     public void practiceGit() {
-        System.out.println("Milos Rankovic");
+
+      System.out.println("Ana Vuksic");
+
     }
 
     @Override
