@@ -1,0 +1,6 @@
+PS C:\Users\JOL1BG\Desktop\git\training> git log --pretty=oneline -5
+684e39a95a8612747247056f76b117645513b69d (HEAD -> develop, origin/develop) Readme reverted
+2de18cef607808b1f67f0e44cb1ce44e2ba5d538 Readme changed
+061b1418b3e8cca9794175ac27d7840f73cd1675 Merge branch 'develop' of https://github.com/lukovicperisa/training into develop
+d6118527a4ad79bba58f64f5a1666ba615b7411b Update ProductWrapperGenerated.java
+9ce2c3787f5a0cb3ecbef2670b546ee80bf50bbc Product wtapper changged
