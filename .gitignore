@@ -1,4 +1,6 @@
-#hide folders
-/gensrc
+
+#hide files
+/src/rankovic/LOG.txt
 /.idea
-/src/com/bosch/services/vuksic/LOG.txt
+/gensrc
+
