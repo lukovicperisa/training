@@ -27,7 +27,9 @@ import io.swagger.annotations.ApiModelProperty;
 @javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2019-12-23T10:51:09.111+01:00")
 public class ProductWrapperGenerated {
   @JsonProperty("d")
-  private ProductResponseGenerated d = new Object();
+
+  private ProductResponseGenerated d = new ProductResponseGenerated();
+
 
   public ProductWrapperGenerated d(ProductResponseGenerated d) {
     this.d = d;
