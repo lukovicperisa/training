@@ -1,3 +1,4 @@
+
 PS C:\Users\JOL1BG\Desktop\git\training> git log --pretty=oneline -5
 684e39a95a8612747247056f76b117645513b69d (HEAD -> develop, origin/develop) Readme reverted
 2de18cef607808b1f67f0e44cb1ce44e2ba5d538 Readme changed
