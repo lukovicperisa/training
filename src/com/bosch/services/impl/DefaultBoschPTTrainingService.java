@@ -8,7 +8,7 @@ public class DefaultBoschPTTrainingService implements BoschPTTrainingService {
     public void practiceGit() {
 
 
-        System.out.println("Nera Rankovic");
+        System.out.println("Ljubica Zivancevic");
 
 
 
