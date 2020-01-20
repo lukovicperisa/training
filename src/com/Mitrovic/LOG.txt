@@ -1,0 +1,44 @@
+commit d75595df09c47ec63164a77136208850bbbcc3df (HEAD -> develop, origin/develop)
+Merge: d65c968 7ad712f
+Author: lukovicperisa <47725690+lukovicperisa@users.noreply.github.com>
+Date:   Thu Dec 26 13:15:06 2019 +0100
+
+    Merge pull request #8 from lukovicperisa/feature/Mitrovic_1
+
+    Feature/mitrovic 1
+
+commit d65c968b16d3b7ba15221f7969c7aff1dad8bef5
+Merge: 13e22c9 4d099f0
+Author: lukovicperisa <47725690+lukovicperisa@users.noreply.github.com>
+Date:   Thu Dec 26 13:14:52 2019 +0100
+
+    Merge pull request #7 from lukovicperisa/feature/zivancevic_1
+
+    Feature/zivancevic 1
+
+commit 13e22c91067211502c511392a95d667ce4451207
+Merge: 140e175 89c8d40
+Author: lukovicperisa <47725690+lukovicperisa@users.noreply.github.com>
+Date:   Thu Dec 26 13:14:23 2019 +0100
+
+    Merge pull request #5 from lukovicperisa/feature/mazic_1
+
+    Feature/mazic 1
+
+commit 140e175a5e9f2473eee2a97aad699709f13b3bcf
+Merge: 6af527c 20da2db
+Author: lukovicperisa <47725690+lukovicperisa@users.noreply.github.com>
+Date:   Thu Dec 26 13:14:10 2019 +0100
+
+    Merge pull request #4 from lukovicperisa/feature/RANKOVICNera
+
+    TASK -4: Create new models -Car, City, Student
+
+commit 6af527c67f84f6990c60912036cd0547316d53b3
+Merge: 02f1a48 a23b5ca
+Author: lukovicperisa <47725690+lukovicperisa@users.noreply.github.com>
+Date:   Thu Dec 26 13:13:55 2019 +0100
+
+    Merge pull request #3 from lukovicperisa/feature/RANKOVIC_1
+
+    Created classes: Car, Door and Wheel
