@@ -1,6 +1,6 @@
 package com.bosch.services.impl;
 
-import com.bosch.services.BoschPTTrainingServiceeee;
+import com.bosch.services.BoschPTTrainingService; Coaaaaaaaa!
 
 public class DefaultBoschPTTrainingService implements BoschPTTrainingService {
 
