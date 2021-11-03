@@ -2,6 +2,8 @@ package com.bosch.services.impl;
 
 import com.bosch.services.BoschPTTrainingService;
 
+const = [Rastko ]
+
 public class DefaultBoschPTTrainingService implements BoschPTTrainingService {
 
     @Override
