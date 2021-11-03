@@ -5,3 +5,5 @@ d75e1edbf46c822dfe91889554f39c0878fd0368 Merge branch 'master' of https://github
 5cdd01ab23e4567912b8b4d57febc65a1e863ccb TASK-1231231: Malo vezbe
 054a720313acb0cd533a6110c8ec1d25cbf16b76 Merge branch 'master' of https://github.com/lukovicperisa/training
 cde3d66e3f53aea860de2a8615e45780ec2d2ed6 commit nesto
+
+sadssa
